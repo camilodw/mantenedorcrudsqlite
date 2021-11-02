@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrim</item>
+        <item name="colorPrimaryDark">@color/colorGray</item>
+    </style>
+
+    <style name="AppTheme.back_layout" parent="AppTheme">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.txtView_idorden" parent="AppTheme">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.btn" parent="AppTheme">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorBlue</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.btn_eliminarorden" parent="AppTheme">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorRed</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="AppTheme.btn_AgregarOrden" parent="AppTheme">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorGreen</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_rut">ID Equipo</string>
+    <string name="app_id">Ingrese ID</string>
+    <string name="app_edtxt_modestado">Ingrese Estado</string>
+    <string name="app_edtxt_comentario">Ingrese Comentario</string>
+    <string name="app_edtxt_marca">Ingrese Marca</string>
+    <string name="app_edtxt_modelo">Ingrese Modelo</string>
+    <string name="app_edtxt_ram">Ingrese RAM</string>
+    <string name="app_edtxt_so">Ingrese Sistema Operativo</string>
+    <string name="app_edtxt_rutcliente">Ingrese RUT Cliente</string>
+    <string name="app_edtxt_estado">Ingrese Estado De La Orden</string>
+    <string name="app_edtxt_requerimiento">Ingrese Requerimiento Del Trabajo</string>
+    <string name="app_btn_registropc">Registrar Equipo</string>
+    <string name="app_btn_selectordenes">Revisar Equipo</string>
+    <string name="app_edtxt_mod">Ingrese nuevo estado</string>
+
+    <string name="eliminar">Eliminar</string>
+    <string name="buscar">Buscar</string>
+    <string name="sistema_operativo">Sistema Operativo:</string>
+    <string name="clinic_dev">Clinic Dev</string>
+    <string name="comentario">Comentario:</string>
+    <string name="ram">Ram:</string>
+    <string name="rut_cliente">Rut Cliente:</string>
+    <string name="requerimiento">Requerimiento:</string>
+    <string name="estado">Estado:</string>
+    <string name="modificar">Modificar</string>
+    <string name="agregar">Agregar</string>
+</resources>

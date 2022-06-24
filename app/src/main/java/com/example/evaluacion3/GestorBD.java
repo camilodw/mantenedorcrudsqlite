@@ -10,7 +10,7 @@ import android.os.Bundle;
 
 public class GestorBD extends SQLiteOpenHelper {
 
-String tabla_equipo = "CREATE TABLE equipo(id int primary key,marca text,modelo text,ram text,sistema text,rut text,estado text,requerimiento text,comentario text)";
+String tabla_equipo = "CREATE TABLE equipo( id int primary key, sistema text)";
     public GestorBD(@Nullable Context context, @Nullable String name,
                     @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);

@@ -46,17 +46,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void MostrarDatos(View view){
+    public void search(View view){
         String id = editTxt_BuscarId.getText().toString();
         if (!id.isEmpty()){
             GestorBD gestor = new GestorBD(this, "equipo", null, 1);
             SQLiteDatabase db = gestor.getWritableDatabase();
-            Cursor valid = db.rawQuery("select id, from equipo where id=" + id , null);
+            Cursor valid = db.rawQuery("select id from equipo where id=" + id , null);
             if (valid.moveToFirst()){
                 Cursor datos = db.rawQuery("select id,sistema from equipo where id=" + id , null);
                 if (datos.moveToFirst()){
                     editTxt_Id.setText(datos.getString(0));
-                    editTxt_So.setText(datos.getString(4).toString());
+                    editTxt_So.setText(datos.getString(1).toString());
                     db.close();
 
             }else{

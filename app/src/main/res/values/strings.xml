@@ -2,8 +2,6 @@
     <string name="app_name">"My App"</string>
     <string name="app_id">Ingrese ID</string>
     <string name="app_edtxt_so">Ingrese Sistema Operativo</string>
-    <string name="app_btn_registropc">Registrar Equipo</string>
-    <string name="app_btn_selectordenes">Revisar Equipo</string>
     <string name="eliminar">Eliminar</string>
     <string name="buscar">Buscar</string>
     <string name="sistema_operativo">Sistema Operativo:</string>
